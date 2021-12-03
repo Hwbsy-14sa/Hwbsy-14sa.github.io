@@ -1,0 +1,26 @@
+---
+layout: post
+title: "[알고리즘] 백준_2557번(Hello World)"
+date: 2021-12-04 01:37:36 +0530
+categories: Algorithm node.js
+---
+
+### 문제
+
+Hello World!를 출력하시오.
+
+### 입력
+
+없음
+
+### 출력
+
+Hello World!를 출력하시오.
+
+### 정답
+
+```javascript
+console.log("Hello World");
+```
+
+> <span style="color: blue">**입력이 없기 때문에 console로 문자열을 바로 출력하면 된다.**</span>
