@@ -17,10 +17,14 @@ Hello World!를 출력하시오.
 
 Hello World!를 출력하시오.
 
-### 정답
+### 문제풀이
 
 ```javascript
-console.log("Hello World");
+console.log("Hello World!");
 ```
 
 #### **입력이 없기 때문에 console로 문자열을 바로 출력하면 된다.**
+
+### 결과
+
+![결과] (/assets/images/백준\_2557.png)
