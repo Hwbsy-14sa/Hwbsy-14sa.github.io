@@ -1,0 +1,33 @@
+---
+layout: post
+title: "[알고리즘] 백준_10718번(We love kriii)"
+date: 2021-12-04 02:52:36 +0530
+categories: Algorithm node.js
+---
+
+### 문제
+
+ACM-ICPC 인터넷 예선, Regional, 그리고 World Finals까지 이미 2회씩 진출해버린 kriii는 미련을 버리지 못하고 왠지 모르게 올해에도 파주 World Finals 준비 캠프에 참여했다.
+
+대회를 뜰 줄 모르는 지박령 kriii를 위해서 격려의 문구를 출력해주자.
+
+### 입력
+
+본 문제는 입력이 없다.
+
+### 출력
+
+두 줄에 걸쳐 "강한친구 대한육군"을 한 줄에 한 번씩 출력한다.
+
+### 문제풀이
+
+```javascript
+console.log("강한친구 대한육군");
+console.log("강한친구 대한육군");
+```
+
+#### **입력이 없고 console 사용 시 자동 줄 바꿈이 되기에 2번 연속으로 출력 해주면 된다.**
+
+### 결과
+
+<img width="942" alt="image" src="https://user-images.githubusercontent.com/58798715/144649559-64455d1e-d16a-430b-9f1c-d003b3fe9a1d.png">
