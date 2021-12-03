@@ -27,4 +27,4 @@ console.log("Hello World!");
 
 ### 결과
 
-![결과] (/assets/images/백준\_2557.png)
+<img width="945" alt="백준_2557" src="https://user-images.githubusercontent.com/58798715/144646855-c618ff38-2b4e-4e63-8810-3a45500a7949.png">
