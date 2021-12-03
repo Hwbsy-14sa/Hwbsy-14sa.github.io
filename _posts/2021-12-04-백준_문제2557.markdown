@@ -23,4 +23,4 @@ Hello World!를 출력하시오.
 console.log("Hello World");
 ```
 
-> <span style="color: blue">**입력이 없기 때문에 console로 문자열을 바로 출력하면 된다.**</span>
+#### **입력이 없기 때문에 console로 문자열을 바로 출력하면 된다.**
