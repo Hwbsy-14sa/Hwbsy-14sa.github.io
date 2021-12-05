@@ -24,7 +24,7 @@ plainwhite:
   # generate social links in footer
   social_links:
     twitter: "none"
-    github: "https://github.com/Hwbsy-14sa"
+    github: "Hwbsy-14sa"
     linkedIn: "none"
     #dribbble: jekyll
     #flickr:   jekyll
