@@ -21,9 +21,11 @@ categories: Algorithm node.js
 
 ```javascript
 const fs = require("fs");
-const input = fs.readFileSync("/dev/stdin").toString().split(" ");
+
+const input = fs.readFileSync("/dev/stdin").toString().split("  ");
 
 let a = Number(input[0]);
+
 let b = Number(input[1]);
 
 console.log(a + b);
@@ -31,12 +33,18 @@ console.log(a + b);
 
 #### **fs모듈을 이용해서 입력값을 받아서, a 와 b에 각각 할당한다.**
 
-#### ** 입력받은 값을 변수에 할당한다.**
+#### **입력받은 값을 변수에 할당한다.**
 
-> 이때 중요한 것은 fs모듈로 입력값은 받은 문자열 이기 때문에 덧셈연산을 수행하려면 정수 값으로 변환 해야 한다.
+#### **console을 통해 할당된 값을 덧셈하여 출력 한다.**
 
-#### ** console을 통해 할당된 값을 덧셈하여 출력 한다.**
+> 핵심 point
+>
+> - node js에서 입력값을 받기 위한 방법은 대표적으로 2가지가 있다.
+> - readline으로 입력값 받기.
+> - fs모듈을 통한 입력값 받기. (이것은 나중에 별도로 정리를 할 예정이다.)
+> - 위의 코드에서 볼 수 있듯 toString()을 사용한다. 즉 입력값이 문자열로 접수 되었기에
+>   연산을 수행하려면 정수로 변경하여야 한다. 그래서 변수에 할당 시, Number 키워드를 사용 하는 것을 볼 수 있다.
 
 ### 결과
 
-<img width="1144" alt="image" src="https://user-images.githubusercontent.com/58798715/144751715-9c2a9c2d-d4df-4191-8d0e-6fe6ab74dc1b.png">
+<img  width="1144"  alt="image"  src="https://user-images.githubusercontent.com/58798715/144751715-9c2a9c2d-d4df-4191-8d0e-6fe6ab74dc1b.png">
