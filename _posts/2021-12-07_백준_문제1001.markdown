@@ -1,0 +1,44 @@
+---
+layout: post
+title: "[알고리즘] 백준_1001번(A-B)"
+date: 2021-12-07 11:42:36 +0900
+categories: Algorithm node.js
+---
+
+### 문제
+
+두 정수 A와 B를 입력받은 다음, A-B를 출력하는 프로그램을 작성하시오.
+
+### 입력
+
+첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+
+### 출력
+
+첫째 줄에 A-B를 출력한다.
+
+### 문제풀이
+
+```javascript
+const fs = require("fs");
+
+const input = fs.readFileSync("/dev/stdin").toString().split(" ");
+
+let a = Number(input[0]);
+
+let b = Number(input[1]);
+
+console.log(a - b);
+```
+
+#### **fs모듈을 이용해서 입력값을 받아서, a 와 b에 각각 할당한다.**
+
+#### **입력받은 값을 변수에 할당한다.**
+
+#### **console을 통해 할당된 값을 뺄셈하여 출력 한다.**
+
+> - 1000번(A+B)과 풀이 방식 동일하고 연산만 변경하면 된다.
+
+### 결과
+
+<img width="945" alt="image" src="https://user-images.githubusercontent.com/58798715/144956774-5193945f-9edd-42f6-9302-c7300a43e688.png">
