@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[알고리즘] 백준_2557번(Hello World)"
-date: 2021-12-04 01:37:36 +0530
+title: "[알고리즘] 백준_1008번(A/B)"
+date: 2021-12-19 08:31:36 +0530
 categories: Algorithm node.js
 ---
 
